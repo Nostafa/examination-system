@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container {
+  height: 90vh;
+  margin: 0 auto;
+  margin: 10px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "qustion qustion mark" "qustion qustion mark" "radio radio mark" "radio radio mark" "radio radio mark" "radio radio mark" "radio radio mark" "radio radio mark" "radio radio mark" "radio radio mark" "next next submit";
+  gap: 10px;
+}
+
+.question {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: qustion;
+  height: 100%;
+  background-color: #f2452e;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: #f2452e;
+}
+
+.radio {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: radio;
+  background-color: #e85d2c;
+  height: 100%;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.mark {
+  border-radius: 5px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 10;
+  -ms-grid-column: 3;
+  grid-area: mark;
+  height: 100%;
+  padding: 15px;
+  background-color: white;
+}
+
+.mark h2 {
+  text-align: center;
+  color: #f2452e;
+}
+
+.mark .point {
+  border: 2px solid #848282;
+  border-radius: 10px;
+  height: 90%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next {
+  border-radius: 5px;
+  -ms-grid-row: 11;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: next;
+}
+
+.submit {
+  padding: 0 15px;
+  -ms-grid-row: 11;
+  -ms-grid-column: 3;
+  grid-area: submit;
+}
+
+.submit button {
+  width: 100%;
+}
+
+#circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hob {
+  background-color: #f22ea4;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+#M {
+  width: 80%;
+  font-size: x-large;
+}
+/*# sourceMappingURL=exam.css.map */

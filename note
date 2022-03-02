@@ -1,0 +1,46 @@
+// var questions = [
+//   {
+//     Q: "What is the intersection of a column and a row on a worksheet called ?",
+//     choices: [{ A: "Column" }, { B: "Value" }, { C: "Address" }, { D: "Cell" }],
+//     Answer: "Cell",
+//   },
+//   {
+//     Q: "What type of chart is useful for comparing values over categories ?",
+//     choices: [
+//       { A: "Pie Chart" },
+//       { B: "Column Chart" },
+//       { C: "Line Chart" },
+//       { D: "Dot Graph" },
+//     ],
+//     Answer: "Column Chart",
+//   },
+//   {
+//     Q: "Which functionin Excel tells how many numeric entries are there ?",
+//     choices: [{ A: "CHKNUM" }, { B: "COUNT" }, { C: "SUM" }, { D: "CHKNUM" }],
+//     Answer: "COUNT",
+//   },
+//   {
+//     Q: "A features that displays only the data in column (s) according to specified criteria",
+//     choices: [
+//       { A: "Formula" },
+//       { B: "Sorting" },
+//       { C: "Filtering" },
+//       { D: "Pivot" },
+//     ],
+//     Answer: "Filtering",
+//   },
+//   {
+//     Q: "Statistical calculations and preparation of tables and graphs can be done using",
+//     choices: [
+//       { A: "Adobe Photoshop" },
+//       { B: "Excel" },
+//       { C: "Notepad" },
+//       { D: "Power Point" },
+//     ],
+//     Answer: "Excel",
+//   },
+//   {
+//     Q: "What is the intersection of a column and a row on a worksheet called ?",
+//     choices: [{ A: "Column" }, { B: "Value" }, { C: "Address" }, { D: "Cell" }],
+//     Answer: "Cell",
+//   },

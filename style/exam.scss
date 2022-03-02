@@ -1,0 +1,120 @@
+$main-color: #f2452e;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+// nav {
+//   margin: 0 2px;
+// }
+.container {
+  height: 90vh;
+  margin: 0 auto;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "qustion qustion mark"
+    "qustion qustion mark"
+    "radio radio mark"
+    "radio radio mark"
+    "radio radio mark"
+    "radio radio mark"
+    "radio radio mark"
+    "radio radio mark"
+    "radio radio mark"
+    "radio radio mark"
+    "next next submit";
+  gap: 10px;
+}
+
+.question {
+  padding: 0 10px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  grid-area: qustion;
+  height: 100%;
+  background-color: #f2452e;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: $main-color;
+}
+.radio {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  grid-area: radio;
+  background-color: #e85d2c;
+  height: 100%;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+.mark {
+  border-radius: 5px;
+  grid-area: mark;
+  height: 100%;
+  padding: 15px;
+  background-color: white;
+  h2 {
+    text-align: center;
+    color: $main-color;
+  }
+  .point {
+    border: 2px solid #848282;
+    border-radius: 10px;
+    height: 90%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.next {
+  border-radius: 5px;
+  grid-area: next;
+}
+.submit {
+  padding: 0 15px;
+  grid-area: submit;
+  button {
+    width: 100%;
+  }
+}
+#circle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hob {
+  background-color: #f22ea4;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#M {
+  width: 80%;
+  font-size: x-large;
+}
